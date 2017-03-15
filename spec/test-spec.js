@@ -101,13 +101,5 @@ describe('Binary Search to traverse an ordered list, effectively', function() {
       expect(search.count).toBeLessThan(search.length);
       expect(search.index).toBe(-1);
     });
-
   });
 });
-
-/*
-* Block the indexOf Array function
-*/
-Array.prototype.indexOf = function () {
-  throw new Error('You are not allowed to use the indexOf function');
-};
