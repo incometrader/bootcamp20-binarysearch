@@ -1,0 +1,30 @@
+{
+  "name": "binarysearch",
+  "version": "1.0.0",
+  "description": "A program that uses the binary search algorithm to search through arrays",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incometrader/bootcamp20-binarysearch.git"
+  },
+  "keywords": [
+    "binary",
+    "search",
+    "array"
+  ],
+  "author": "Ignatius Ukwuoma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incometrader/bootcamp20-binarysearch/issues"
+  },
+  "homepage": "https://github.com/incometrader/bootcamp20-binarysearch#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "jasmine": "^2.5.3"
+  }
+}
