@@ -51,6 +51,11 @@ Array.prototype.search = function binarySearch(num) {
       return searchResult;
     }
 
+    if (num === this[midIndex - 2]) {
+      searchResult.index = midIndex - 2;
+      return searchResult;
+    }
+
     if (num < this[midIndex]) {
       stopIndex = midIndex - 1;
       searchResult.count += 1;
